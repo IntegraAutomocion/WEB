@@ -16,7 +16,47 @@
     --transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
     --font-cyber: 'Outfit', sans-serif;
 }
+/* Sobre Nosotros */
+.nosotros-content p {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+}
 
+.nosotros-blocks {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.nosotros-block {
+    background: rgba(255, 255, 255, 0.05); /* ajusta según tu tema */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 1.5rem;
+}
+
+.nosotros-block h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.nosotros-block ul {
+    padding-left: 1.2rem;
+    line-height: 1.8;
+}
+
+.nosotros-block ul li {
+    margin-bottom: 0.25rem;
+}
+
+.nosotros-tagline {
+    margin-top: 1.5rem;
+    font-style: italic;
+}
 * {
     margin: 0;
     padding: 0;
